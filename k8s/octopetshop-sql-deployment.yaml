@@ -12,7 +12,6 @@ spec:
       labels:
         component: sqlserver
     spec:
-      runtimeClassName: rancher-desktop
       containers:
         - name: sqlserver
           image: mcr.microsoft.com/mssql/server:2019-latest
